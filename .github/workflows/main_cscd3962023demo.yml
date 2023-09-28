@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: "CSCD3962023Demo"
           slot-name: "Test"
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0D41E5AD44CC4E889BA2EF29ACB131FF }}
+          publish-profile: ${{ secrets.PublishProfileForTest }}
           package: .
